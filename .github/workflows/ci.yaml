@@ -17,7 +17,7 @@ jobs:
       - name: Repository Information
         run: |
           echo "Repository Name: ${{github.repository}}"
-          echo "Type of Event: ${{github.evet_name}}"
+          echo "Type of Event: ${{github.event_name}}"
           git --version
           git branch
           git log
